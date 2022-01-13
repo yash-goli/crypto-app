@@ -44,10 +44,10 @@ const NavBar = () => {
           <Menu.Item icon={<FundOutlined />} key='2'>
             <Link to='/crypto-coins'>Crypto Coins</Link>
           </Menu.Item>
-          <Menu.Item icon={<MoneyCollectOutlined />} key='3'>
+          {/* <Menu.Item icon={<MoneyCollectOutlined />} key='3'>
             <Link to='/exchanges'>Exchanges</Link>
-          </Menu.Item>
-          <Menu.Item icon={<BulbOutlined />} key='4'>
+          </Menu.Item> */}
+          <Menu.Item icon={<BulbOutlined />} key='3'>
             <Link to='/news'>News</Link>
           </Menu.Item>
         </Menu>

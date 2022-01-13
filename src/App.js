@@ -17,7 +17,7 @@ const App = () => {
             <div className='routes'>
               <Routes>
                 <Route exact path='/' element={<HomePage />}></Route>
-                <Route exact path='/exchanges' element={<Exchanges />}></Route>
+                {/* <Route exact path='/exchanges' element={<Exchanges />}></Route> */}
                 <Route exact path='/crypto-coins' element={<CryptoCoins />}></Route>
                 <Route exact path='/crypto-coins/:coinId' element={<CryptoCoinDetails />}></Route>
                 <Route exact path='/news' element={<News />}></Route>
