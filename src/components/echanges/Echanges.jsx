@@ -18,7 +18,7 @@ const Echanges = ({ coinId }) => {
           <Col xs={24} sm={12} lg={6} className='crypto-card' key={exchange.uuid}>
             <Card
               title={`${exchange.rank}. ${exchange.name}`}
-              extra={<img className='crypto-image' src={exchange.iconUrl} />}
+              extra={<img className='crypto-image' src={exchange.iconUrl} alt='exchange'/>}
             >
               <p>Price: {millify(exchange.price)}</p>
               <p>Markets: {millify(exchange.numberOfMarkets)}</p>
